@@ -1,0 +1,78 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManager (6.5.0)
+  - JCore (2.1.4-noidfa)
+  - JPush (3.2.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - Masonry (0.6.4)
+  - MJRefresh (3.2.0)
+  - SDAutoLayout (2.2.1)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BGFMDB
+  - DZNEmptyDataSet
+  - IQKeyboardManager
+  - JCore (= 2.1.4-noidfa)
+  - JPush (= 3.2.6)
+  - Masonry (~> 0.6.1)
+  - MJRefresh
+  - SDAutoLayout
+  - SDWebImage (~> 5.0.0)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BGFMDB
+    - DZNEmptyDataSet
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - Masonry
+    - MJRefresh
+    - SDAutoLayout
+    - SDWebImage
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManager: 700e5155d6a292383b54e8678aec769e14fc78fc
+  JCore: 2f15311e6889ab43ed5d629802ef793cac566465
+  JPush: 41dd48a69bd8c08abc692dc7f2b23c0fb281471f
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 581b8cf119c24f3d8123cbec3ff08389616e6119
+
+COCOAPODS: 1.6.1
